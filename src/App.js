@@ -4,7 +4,7 @@ import { CalculatorPage } from './Pages/calculatorpage';
 
 function App () {
   return (
-    <div>
+    <div className='calci' >
       <CalculatorPage/>
       </div>
   );

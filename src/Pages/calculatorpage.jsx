@@ -36,7 +36,7 @@ export const CalculatorPage = () => {
     marginBottom: '10px',
   };
 return (
-    <div className="container" style={{ width: '400px', margin: '0 auto' }}>
+    <div className="container" style={{ width: '400px', marginTop: '100px' }}>
       <Message  className="secondary" value = {count}/>
       <div style={buttonRowStyle}>
       <Button fn={logic} className="info" value="(" /> &nbsp;
